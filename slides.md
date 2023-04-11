@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: default
+theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 # background: https://source.unsplash.com/collection/94734566/1920x1080
@@ -18,6 +18,7 @@ transition: fadeout
 # use UnoCSS
 css: unocss
 colorSchema: 'dark'
+background: black
 ---
 
 # PySpark for Python developers
@@ -63,3 +64,16 @@ layout: statement
 - Debugging
 - SQL
 
+---
+layout: cover
+background: stop.png
+---
+
+
+# Did you notice I didn't mention BIG DATA?
+
+<v-click>
+
+## Because it's irrelevant (here)
+
+</v-click>
