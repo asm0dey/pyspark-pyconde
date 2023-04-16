@@ -21,7 +21,7 @@ colorSchema: 'dark'
 background: black
 ---
 
-# PySpark for Python developers
+# PySpark <simple-icons-apachespark/> for Python developers
 
 Pasha Finkelshteyn
 
@@ -77,3 +77,69 @@ background: stop.png
 ## Because it's irrelevant (here)
 
 </v-click>
+
+---
+
+# PySpark allows us to work with big data
+
+### Like it's small data, and
+
+- Distributed
+- Seamless
+- With DataFrames
+
+---
+
+# Data frames?
+
+1. distributed collection of data organized into named columns
+2. immutable data structure (can't DML, can DDL)
+3. filtering, grouping, joining, and aggregating data
+
+Like this (© ChatGPT)
+
+| id  | name      | age | salary |
+| --- | --------- | --- | ------ |
+| 1   | John Doe  | 32  | 50000  |
+| 2   | Jane Smith| 27  | 75000  |
+| 3   | Bob Johnson| 45 | 100000 |
+| 4   | Lisa Brown| 23  | 40000  |
+
+---
+
+# Actually, it's not only data frames
+
+## It's also distributed computation engine
+
+But dataframes make it one of the most popular tools for distributed data processing
+
+1. Connect to multiple data sources
+2. Join them like they are the same
+3. Build execution plan
+4. Execute it in (hopefully) most optimal way
+
+Used at <simple-icons-google/><simple-icons-amazon/><simple-icons-jetbrains/> and **many** others
+
+---
+
+# Today's sample
+
+- https://movielens.org/
+- User tags, ratings, etc
+- Relevance scores
+- Data until 2018th :(
+
+---
+layout: cover
+background: tv.png
+---
+
+# What is the most popular genre of movies?
+
+---
+layout: statement
+---
+
+# Demo time
+
+Pasha, switch to PyCharm please

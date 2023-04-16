@@ -7,6 +7,7 @@ specifiers:
   '@iconify-json/gg': ^1.1.4
   '@iconify-json/ic': ^1.1.13
   '@iconify-json/logos': ^1.1.24
+  '@iconify-json/simple-icons': ^1.1.42
   '@iconify-json/uil': ^1.1.4
   '@slidev/cli': ^0.40.10
   '@slidev/theme-default': '*'
@@ -24,6 +25,7 @@ devDependencies:
   '@iconify-json/gg': 1.1.4
   '@iconify-json/ic': 1.1.13
   '@iconify-json/logos': 1.1.24
+  '@iconify-json/simple-icons': 1.1.42
   '@iconify-json/uil': 1.1.4
 
 packages:
@@ -616,6 +618,12 @@ packages:
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
+
+  /@iconify-json/simple-icons/1.1.42:
+    resolution: {integrity: sha512-9QzE4F8wBK4BD5nzD35KcOwSg0XbIGsMGpPUNWOkSS8PyEVrBby4eQ4BMs2V3tAPdvxYLfyYvHrb29wGqS6hUw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify-json/uil/1.1.4:
     resolution: {integrity: sha512-ucuFHlUvkfQUnyq4l2Sskrdg8r5DB8IQwMxEpPQ2JG1QTRbUmliddTT9r8/b3h69w+/IySHUy+iJcbfiHoa9zA==}
