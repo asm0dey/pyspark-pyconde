@@ -33,7 +33,7 @@ layout: two-cols
 
 - Developer <emojione-monotone-avocado /> at <logos-jetbrains />
 - Average <fa6-brands-python /> enjoyer
-- Speaker <ph-microphone-fill /> and streamer <ph-twitch-logo /> (https://twitch.tv/jetbrains or [<ph-twitch-logo />.<gg-tv />/<logos-jetbrains />](https://twitch.tv/jetbrains))
+- Speaker <ph-microphone-fill /> and streamer <ph-twitch-logo /> ([https://twitch.tv/jetbrains](https://jb.gg/twitch) or [<ph-twitch-logo />.<gg-tv />/<logos-jetbrains />](https://jb.gg/twitch))
 - Data engineer
 
 ::right::
@@ -121,6 +121,24 @@ But dataframes make it one of the most popular tools for distributed data proces
 Used at <simple-icons-google/><simple-icons-amazon/><simple-icons-jetbrains/> and **many** others
 
 ---
+layout: image-right
+
+# the image source
+image: ignition.png
+---
+
+# Why do you need it?
+
+#### One day you will need to…
+
+- Join data from database and HTTP API?
+- Collect data from multiple sources and analyze it?
+- Write a custome function that you can't call inside you SQL query?
+- Handle _**BIG DATA**_ (who knows who knows)
+
+<p class="text-right text-sm">Spark ignites big data --></p>
+
+---
 
 # Today's sample
 
@@ -143,3 +161,31 @@ layout: statement
 # Demo time
 
 Pasha, switch to PyCharm please
+
+---
+
+# Summary
+
+PySpark allows
+
+- Join data from different sources
+- Process data in parallel
+- Work with data in a uniform way
+
+---
+layout: cover
+background: monk.png
+---
+
+# Thank you!
+
+## Time for questions!
+
+<div class="text-left">
+<p><ph-twitter-logo-fill/> asm0di0</p>
+<p><mdi-mastodon/> @asm0dey@fosstodon.org</p>
+<p><ph-envelope-simple-open-fill/> me@asm0dey.site</p>
+<p><ph-twitch-logo-fill/> https://jb.gg/twitch</p>
+<p><ph-github-logo-fill/><ph-instagram-logo-fill/><ph-linkedin-logo-fill/><ph-telegram-logo-fill/> asm0dey</p>
+<p><ph-globe-duotone/><a href="https://linktr.ee/asm0dey">https://linktr.ee/asm0dey</a></p>
+</div>

@@ -7,6 +7,7 @@ specifiers:
   '@iconify-json/gg': ^1.1.4
   '@iconify-json/ic': ^1.1.13
   '@iconify-json/logos': ^1.1.24
+  '@iconify-json/mdi': ^1.1.50
   '@iconify-json/simple-icons': ^1.1.42
   '@iconify-json/uil': ^1.1.4
   '@slidev/cli': ^0.40.10
@@ -25,6 +26,7 @@ devDependencies:
   '@iconify-json/gg': 1.1.4
   '@iconify-json/ic': 1.1.13
   '@iconify-json/logos': 1.1.24
+  '@iconify-json/mdi': 1.1.50
   '@iconify-json/simple-icons': 1.1.42
   '@iconify-json/uil': 1.1.4
 
@@ -609,6 +611,12 @@ packages:
 
   /@iconify-json/logos/1.1.24:
     resolution: {integrity: sha512-A93dQCvPlka1c5Mn52lQYW4kEQkd3+oXzYI9ju2n8xW2aBJOyAltyJYcYWeVhw7bofJ0bj66Cw/r9avBCiKH0Q==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.50:
+    resolution: {integrity: sha512-SgbT5w5eHCdOG74ZWPz7HlTGk6VsifIJhNi6lAsxj/5Nlqt6Cz4LlQmSa9eecU9p075Jub2aAx/o7YI+GCahRQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
